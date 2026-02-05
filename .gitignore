@@ -1,4 +1,32 @@
-".env" 
-"venv/" 
-"__pycache__/" 
-"*.db" 
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+.env
+
+# Coverage reports
+.coverage
+htmlcov/
+
+# Database files (SQLite, local dev only)
+*.db
+*.sqlite3
+
+# Flask instance folder (contains local configs/secrets)
+instance/
+server/instance/
+
+# Alembic migrations cache
+migrations/versions/__pycache__/
+server/migrations/versions/__pycache__/
+
+# Logs
+*.log
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
